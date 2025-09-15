@@ -33,19 +33,54 @@
 
             do
             {
-                Console.Write("Nombre del producto: ");
-                string nombre = Console.ReadLine();
+                string nombre;
+                while (true)
+                {
+                    Console.Write("Nombre del producto: ");
+                    nombre = Console.ReadLine();
+                    if (!string.IsNullOrWhiteSpace(nombre))
+                    {
+                        break;
+                    }
+                    Console.WriteLine("Por favor ingrese un nombre válido.");
+                }
 
-                Console.Write("Precio unitario: ");
-                double precio = double.Parse(Console.ReadLine());
+                double precio;
+                while (true)
+                {
+                    Console.Write("Precio unitario: ");
+                    string input = Console.ReadLine();
+                    if (double.TryParse(input, out precio) && precio > 0)
+                    {
+                        break;
+                    }
+                    Console.WriteLine("Por favor ingrese un precio válido mayor que 0.");
+                }
 
-                Console.Write("Cantidad: ");
-                int cantidad = int.Parse(Console.ReadLine());
+                int cantidad;
+                while (true)
+                {
+                    Console.Write("Cantidad: ");
+                    string input = Console.ReadLine();
+                    if (int.TryParse(input, out cantidad) && cantidad > 0)
+                    {
+                        break;
+                    }
+                    Console.WriteLine("Por favor ingrese una cantidad válida mayor que 0.");
+                }
 
                 productos.Add(new Producto { Nombre = nombre, Precio = precio, Cantidad = cantidad });
 
-                Console.Write("¿Agregar otro producto? (s/n): ");
-                continuar = Console.ReadLine().ToLower();
+                while (true)
+                {
+                    Console.Write("¿Agregar otro producto? (s/n): ");
+                    continuar = Console.ReadLine()?.ToLower();
+                    if (continuar == "s" || continuar == "n")
+                    {
+                        break;
+                    }
+                    Console.WriteLine("Por favor ingrese 's' para sí o 'n' para no.");
+                }
 
             } while (continuar == "s");
 

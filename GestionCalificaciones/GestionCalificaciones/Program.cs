@@ -21,15 +21,34 @@
         static double[] IngresoCalificaciones()
         {
             Console.WriteLine("=== GESTIÓN DE CALIFICACIONES ===");
-            Console.Write("Ingrese el número de calificaciones: ");
-            int cantidad = int.Parse(Console.ReadLine());
+            
+            int cantidad;
+            while (true)
+            {
+                Console.Write("Ingrese el número de calificaciones: ");
+                string input = Console.ReadLine();
+                if (int.TryParse(input, out cantidad) && cantidad > 0)
+                {
+                    break;
+                }
+                Console.WriteLine("Por favor ingrese un número válido mayor que 0.");
+            }
 
             double[] calificaciones = new double[cantidad];
 
             for (int i = 0; i < cantidad; i++)
             {
-                Console.Write($"Ingrese la calificación {i + 1}: ");
-                calificaciones[i] = double.Parse(Console.ReadLine());
+                while (true)
+                {
+                    Console.Write($"Ingrese la calificación {i + 1} (0-100): ");
+                    string input = Console.ReadLine();
+                    if (double.TryParse(input, out double calificacion) && calificacion >= 0 && calificacion <= 100)
+                    {
+                        calificaciones[i] = calificacion;
+                        break;
+                    }
+                    Console.WriteLine("Por favor ingrese una calificación válida entre 0 y 100.");
+                }
             }
 
             return calificaciones;

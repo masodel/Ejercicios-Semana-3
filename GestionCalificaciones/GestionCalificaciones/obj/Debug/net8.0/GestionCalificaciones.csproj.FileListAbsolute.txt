@@ -1,0 +1,15 @@
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\bin\Debug\net8.0\GestionCalificaciones.exe
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\bin\Debug\net8.0\GestionCalificaciones.deps.json
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\bin\Debug\net8.0\GestionCalificaciones.runtimeconfig.json
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\bin\Debug\net8.0\GestionCalificaciones.dll
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\bin\Debug\net8.0\GestionCalificaciones.pdb
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\GestionCalificaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\GestionCalificaciones.AssemblyInfoInputs.cache
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\GestionCalificaciones.AssemblyInfo.cs
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\GestionCalificaciones.csproj.CoreCompileInputs.cache
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\GestionCalificaciones.sourcelink.json
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\GestionCalificaciones.dll
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\refint\GestionCalificaciones.dll
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\GestionCalificaciones.pdb
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\GestionCalificaciones.genruntimeconfig.cache
+C:\Users\rolan\Documents\Ejercicios-Semana-3\GestionCalificaciones\GestionCalificaciones\obj\Debug\net8.0\ref\GestionCalificaciones.dll

@@ -43,7 +43,7 @@
         {
             Console.WriteLine("=== CAJERO AUTOMÁTICO ===");
             Console.Write("Ingrese su PIN: ");
-            string pinIngresado = Console.ReadLine();
+            string pinIngresado = Console.ReadLine()!;
 
             if (pinIngresado == pin)
             {
@@ -65,7 +65,17 @@
             Console.WriteLine("3. Depositar dinero");
             Console.WriteLine("4. Salir");
             Console.Write("Seleccione una opción: ");
-            return int.Parse(Console.ReadLine());
+            
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out int opcion) && opcion >= 1 && opcion <= 4)
+            {
+                return opcion;
+            }
+            else
+            {
+                Console.WriteLine("Opción inválida. Intente nuevamente.\n");
+                return MostrarMenu();
+            }
         }
 
         // Subproblema 2: Consulta de saldo
@@ -78,16 +88,23 @@
         static void RealizarRetiro()
         {
             Console.Write("Ingrese la cantidad a retirar: $");
-            double cantidad = double.Parse(Console.ReadLine());
-
-            if (cantidad <= saldo && cantidad > 0)
+            string input = Console.ReadLine();
+            
+            if (double.TryParse(input, out double cantidad))
             {
-                saldo -= cantidad;
-                Console.WriteLine($"Retiro exitoso. Nuevo saldo: ${saldo:F2}\n");
+                if (cantidad <= saldo && cantidad > 0)
+                {
+                    saldo -= cantidad;
+                    Console.WriteLine($"Retiro exitoso. Nuevo saldo: ${saldo:F2}\n");
+                }
+                else
+                {
+                    Console.WriteLine("Fondos insuficientes o cantidad inválida.\n");
+                }
             }
             else
             {
-                Console.WriteLine("Fondos insuficientes o cantidad inválida.\n");
+                Console.WriteLine("Por favor ingrese un número válido.\n");
             }
         }
 
@@ -95,16 +112,23 @@
         static void RealizarDeposito()
         {
             Console.Write("Ingrese la cantidad a depositar: $");
-            double cantidad = double.Parse(Console.ReadLine());
-
-            if (cantidad > 0)
+            string input = Console.ReadLine();
+            
+            if (double.TryParse(input, out double cantidad))
             {
-                saldo += cantidad;
-                Console.WriteLine($"Depósito exitoso. Nuevo saldo: ${saldo:F2}\n");
+                if (cantidad > 0)
+                {
+                    saldo += cantidad;
+                    Console.WriteLine($"Depósito exitoso. Nuevo saldo: ${saldo:F2}\n");
+                }
+                else
+                {
+                    Console.WriteLine("Cantidad inválida.\n");
+                }
             }
             else
             {
-                Console.WriteLine("Cantidad inválida.\n");
+                Console.WriteLine("Por favor ingrese un número válido.\n");
             }
         }
 
