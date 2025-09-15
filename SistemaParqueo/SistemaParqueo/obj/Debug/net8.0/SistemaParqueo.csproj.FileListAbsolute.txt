@@ -1,0 +1,14 @@
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\bin\Debug\net8.0\SistemaParqueo.exe
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\bin\Debug\net8.0\SistemaParqueo.deps.json
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\bin\Debug\net8.0\SistemaParqueo.runtimeconfig.json
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\bin\Debug\net8.0\SistemaParqueo.dll
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\bin\Debug\net8.0\SistemaParqueo.pdb
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\obj\Debug\net8.0\SistemaParqueo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\obj\Debug\net8.0\SistemaParqueo.AssemblyInfoInputs.cache
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\obj\Debug\net8.0\SistemaParqueo.AssemblyInfo.cs
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\obj\Debug\net8.0\SistemaParqueo.csproj.CoreCompileInputs.cache
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\obj\Debug\net8.0\SistemaParqueo.dll
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\obj\Debug\net8.0\refint\SistemaParqueo.dll
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\obj\Debug\net8.0\SistemaParqueo.pdb
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\obj\Debug\net8.0\SistemaParqueo.genruntimeconfig.cache
+C:\Users\u26ak\source\repos\SistemaParqueo\SistemaParqueo\obj\Debug\net8.0\ref\SistemaParqueo.dll
